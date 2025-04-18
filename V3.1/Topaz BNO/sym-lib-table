@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Topaz's Symbols")(type "KiCad")(uri "${KIPRJMOD}/Data/Topaz's Symbols.kicad_sym")(options "")(descr ""))
+)

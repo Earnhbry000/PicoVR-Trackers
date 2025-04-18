@@ -1,0 +1,163 @@
+(footprint "NewCheapoButton"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dffb2016-a927-4af9-98c2-149abb10a736")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BTN_BOOT"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f49b350-6d58-4c97-859c-f633f6aec6eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Topaz's Footprints:NewCheapoButton"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f048ec86-1d27-45fe-a0ae-db9509a31447")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c26782cf-f64c-4afd-97f7-9ad7aadf5f54")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a8af588-65ba-46d2-b435-09ff98257d76")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "C139797"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "087441d8-2c1e-42d4-b152-4bbd07172d3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.92 -1.712)
+		(end 2.22 -1.712)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cef0159e-35d6-4fe7-b4c6-a71512e0b986")
+	)
+	(fp_line
+		(start -1.92 1.712)
+		(end 2.22 1.712)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8a59b30-ccba-40c0-b078-341445a221c5")
+	)
+	(fp_rect
+		(start -2.75 -2)
+		(end 3 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "162d1d76-62d6-404d-94cd-b8ff4d09dd83")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ff97259d-bcd7-4ea6-ba42-435600a2de7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.95 -1.075)
+		(size 1.05 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8c836f67-4394-4073-8134-748066d075f7")
+	)
+	(pad "1" smd rect
+		(at 2.2 -1.075)
+		(size 1.05 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "6edead4d-3101-474d-96ef-97ff7d958a44")
+	)
+	(pad "2" smd rect
+		(at -1.95 1.075)
+		(size 1.05 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "131b62d6-d012-4e16-a212-a449aade579a")
+	)
+	(pad "2" smd rect
+		(at 2.2 1.075)
+		(size 1.05 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "57a6b468-341f-43c8-9b73-243aac273b49")
+	)
+	(model "${KIPRJMOD}/Data/Topaz's Models/CheapoButton.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
