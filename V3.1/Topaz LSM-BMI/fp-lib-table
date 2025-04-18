@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Topaz's Footprints")(type "KiCad")(uri "${KIPRJMOD}/Data/Topaz's Footprints.pretty")(options "")(descr ""))
+)

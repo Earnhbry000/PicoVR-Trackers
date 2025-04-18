@@ -1,0 +1,210 @@
+(footprint "LED-ARRAY-SMD_4P-L2.1-W2.1-TL_NH-B2020RGBA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED-ARRAY-SMD_4P-L2.1-W2.1-TL_NH-B2020RGBA footprint")
+	(tags "LED-ARRAY-SMD_4P-L2.1-W2.1-TL_NH-B2020RGBA footprint C2874116")
+	(property "Reference" "REF**"
+		(at 0.399962 -3.049987 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0111a49a-dfbb-4800-9348-896be43de0f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED"
+		(at 0.399962 3.049987 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a726c419-df44-43f4-8166-85cd045fb867")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Topaz's Footprints:LED-ARRAY-SMD_4P-L2.1-W2.1-TL_NH-B2020RGBA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06e77a7b-15f2-496b-bba3-e21859e027e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14360e29-28ef-4d03-94bc-4338f0344d52")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "RGB LED, red/blue/anode/green"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7221db85-9fdf-4590-813b-d9b5a4e07ec8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "C2874116"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "396eca61-cd41-4d1d-b2d3-b4d75ee4d345")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.049987 -1.049987)
+		(end 1.050013 -1.049987)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec859fb7-4034-47b4-ac1f-bbe745df9f0a")
+	)
+	(fp_line
+		(start -1.049987 -0.070892)
+		(end -1.050013 0.070892)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd4c853a-796e-4d6b-982c-3853e60eada4")
+	)
+	(fp_line
+		(start -1.049987 1.049987)
+		(end 1.050013 1.049987)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e451528d-daa2-4c20-9148-f86cbf14cb5a")
+	)
+	(fp_line
+		(start 1.049987 -0.070892)
+		(end 1.050013 0.070892)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbc97b9c-eafd-4bb9-9299-f59112c9caa9")
+	)
+	(fp_line
+		(start 1.175019 1.3)
+		(end 1.62498 1.3)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d256b28-d229-4174-b5ce-00ce8bc710a2")
+	)
+	(fp_line
+		(start 1.395034 1.050038)
+		(end 1.395034 1.550038)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8795ac42-71a1-45c9-9585-77c53c3d300e")
+	)
+	(fp_circle
+		(center -1.050013 -1.050013)
+		(end -1.020015 -1.050013)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d443ff42-e44b-4f4f-a6ca-7abb21e8673a")
+	)
+	(fp_rect
+		(start -1.4 -1.3)
+		(end 1.4 1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3761fef2-3ad8-4fd1-bd89-dd525d2e9848")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ea34ceb9-87e4-42f0-bc1c-799e0487d890")
+		(effects
+			(font
+				(size 0.15 0.15)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.849886 -0.549911)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b1347051-5af5-4421-b7b6-610df36ddf62")
+	)
+	(pad "2" smd rect
+		(at 0.849886 -0.549911)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5f229bd7-c244-4e46-847d-5bec45531404")
+	)
+	(pad "3" smd rect
+		(at 0.849886 0.549911)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6e8248c9-259b-43a2-a107-849545e3c715")
+	)
+	(pad "4" smd rect
+		(at -0.849886 0.549911)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9d6136ca-3f24-4723-a961-5bf9e5e2d6d6")
+	)
+	(model "${KIPRJMOD}/Data/Topaz's Models/LED-ARRAY-SMD_4P-L2.1-W2.1-TL_NH-B2020RGBA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

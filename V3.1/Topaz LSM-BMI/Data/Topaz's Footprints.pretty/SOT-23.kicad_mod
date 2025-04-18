@@ -1,0 +1,325 @@
+(footprint "SOT-23"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "SOT TO_SOT_SMD")
+	(property "Reference" "REF**"
+		(at 0 -2.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e769703b-c09c-4475-9b0c-bd380f6712d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AO3401A"
+		(at 0 -3.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c22b5ee-2849-454d-87d3-9daee61eb2c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Topaz's Footprints:SOT-23"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e74ac182-9d70-4058-9089-2913ea62ca4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a233bea-b3a5-4008-8f2d-fc7fc1618601")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58d7b01a-58a4-4a97-96a6-b825784e9069")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "C6575062"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7271a1a7-f2b1-4d16-9b19-13b222e2d676")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.175 -0.484629)
+		(end -1.425 -0.234629)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "35508c62-0690-4a80-9b5d-e5a8bd6c9cf2")
+	)
+	(fp_line
+		(start -1.175 -0.484629)
+		(end -1.175 0.015371)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7c2775e3-5af1-4e75-a15d-45444fe4de2b")
+	)
+	(fp_line
+		(start -1.175 -0.484629)
+		(end -0.925 -0.234629)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "61182a4a-3322-4ee0-bc7e-ac1a55ff8f98")
+	)
+	(fp_line
+		(start -0.8 1.6)
+		(end -0.8 1.475)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4774c904-3c2b-43f7-9b70-baf5b629d49d")
+	)
+	(fp_line
+		(start -0.8 1.6)
+		(end 0.8 1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c642e7d3-6aaf-4834-8528-0cea831abfc6")
+	)
+	(fp_line
+		(start -0.375 -1.6)
+		(end -0.5 -1.475)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad7b08cc-d007-4e0d-9459-b8c440e30f18")
+	)
+	(fp_line
+		(start 0.8 -1.6)
+		(end -0.375 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e3b3757-73e7-4dbb-a539-3fca157b10a5")
+	)
+	(fp_line
+		(start 0.8 -1.6)
+		(end 0.8 -0.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c8c7926-bf8b-4ff8-bf65-d07f86626e3e")
+	)
+	(fp_line
+		(start 0.8 0.525)
+		(end 0.8 1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2e961ff-35da-4c8f-ba6a-ad65602e7021")
+	)
+	(fp_circle
+		(center -1.175 0.35)
+		(end -1.175 0.484629)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "bd2a5949-61f9-4852-bfa4-b9108f7f36ea")
+	)
+	(fp_line
+		(start -1.85 -1.7)
+		(end -1.85 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "101c4543-4115-4aea-8e1b-cba6b74edc8b")
+	)
+	(fp_line
+		(start -1.85 1.7)
+		(end 1.85 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "11f1ddf5-8802-4341-bd7f-871a2067de1f")
+	)
+	(fp_line
+		(start 1.85 -1.7)
+		(end -1.85 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a9a43c7-5b50-4ea4-b479-01b93c67016c")
+	)
+	(fp_line
+		(start 1.85 1.7)
+		(end 1.85 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "93a5422c-93c1-4b1e-a394-733697759bcf")
+	)
+	(fp_line
+		(start -0.65 -1.125)
+		(end -0.325 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a00f7b3-9723-40e1-9fd4-ce2f200fc212")
+	)
+	(fp_line
+		(start -0.65 1.45)
+		(end -0.65 -1.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ba20cc2-6862-42d6-b4c5-33a54c33406e")
+	)
+	(fp_line
+		(start -0.325 -1.45)
+		(end 0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "311df02f-dc62-4573-9f6b-f82650f94beb")
+	)
+	(fp_line
+		(start 0.65 -1.45)
+		(end 0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "077850e3-03e9-4b19-824b-83a402ddcaf7")
+	)
+	(fp_line
+		(start 0.65 1.45)
+		(end -0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85a8900c-1ad7-4375-aa75-477f97519329")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2b25a664-dfd6-4a4e-a3dd-ea4a25048e1a")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.9375 -0.95)
+		(size 1.475 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "bd152204-e283-4fc7-9a59-f4b9ce9bc48a")
+	)
+	(pad "2" smd roundrect
+		(at -0.9375 0.95)
+		(size 1.475 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "bade03ad-66e7-476e-b664-9a6112b5db6f")
+	)
+	(pad "3" smd roundrect
+		(at 0.9375 0)
+		(size 1.475 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "0511cc4c-c406-4c4f-bb8d-e17cbbcefc0b")
+	)
+	(group ""
+		(uuid "28763e58-7046-444c-b3aa-d5c48d4e545b")
+		(members "35508c62-0690-4a80-9b5d-e5a8bd6c9cf2" "61182a4a-3322-4ee0-bc7e-ac1a55ff8f98"
+			"7c2775e3-5af1-4e75-a15d-45444fe4de2b" "bd2a5949-61f9-4852-bfa4-b9108f7f36ea"
+		)
+	)
+	(model "${KIPRJMOD}/Data/Topaz's Models/SOT-23.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

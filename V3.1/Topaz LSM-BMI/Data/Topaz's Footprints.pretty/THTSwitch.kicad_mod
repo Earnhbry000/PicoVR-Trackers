@@ -1,0 +1,226 @@
+(footprint "THTSwitch"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "415bc2ae-757f-4acc-83bf-a17d2253b750")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PWR_SWITCH"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1321d1fc-e400-4532-a00d-992486e57ce9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Topaz's Footprints:THTSwitch"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84efed06-a951-460d-ba24-4c2ee6df778a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "735ac22c-8d40-45c0-acda-3d33c6af37ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Switch, single pole double throw"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f033b5b7-71af-451d-a8fd-a04c0bc8356a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "C431548"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b99cd92e-b318-4089-a27b-5080ad1d5913")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.35 -2.2)
+		(end -4.35 -1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2e060eb1-b60b-4889-8ed2-651aa4ddc069")
+	)
+	(fp_line
+		(start -4.35 1.3)
+		(end -4.35 2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "111008c0-f20b-4c59-bf6e-d55996020680")
+	)
+	(fp_line
+		(start -4.35 2.2)
+		(end 4.35 2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f6f053c9-0daa-4e8d-9c39-016a5f6d924c")
+	)
+	(fp_line
+		(start 4.35 -2.2)
+		(end -4.35 -2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "15497aed-575d-4ecd-af9e-33fb2acd1974")
+	)
+	(fp_line
+		(start 4.35 -2.2)
+		(end 4.35 -1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4c9c220e-bce9-4ed9-8f78-f1715db3c35f")
+	)
+	(fp_line
+		(start 4.35 1.3)
+		(end 4.35 2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e0272245-8d79-46b7-9866-956f5150168c")
+	)
+	(fp_rect
+		(start -5 -2.5)
+		(end 5 6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "033a67ee-3aa0-4250-a009-d760cbd91017")
+	)
+	(fp_rect
+		(start -2.0755 2.2)
+		(end -0.0005 6.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "26bc51b0-e09b-414f-9f2b-6106643ce686")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "04dd4dbe-34cb-43d0-ae24-708c92eccb93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2 0)
+		(size 1.524 1.524)
+		(drill 0.914)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dd1fdad6-5af1-4621-a59b-767c5181d75f")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 0.914)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "18674a28-0e85-435f-8755-658cb12478c3")
+	)
+	(pad "3" thru_hole circle
+		(at 2 0)
+		(size 1.524 1.524)
+		(drill 0.914)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bb184dc5-d6a2-40c1-b1d7-f4ad117263a5")
+	)
+	(pad "MP" thru_hole oval
+		(at -4.15 0)
+		(size 1.4 2.2)
+		(drill oval 0.8 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5982a77b-cdf3-49cd-b383-2837c0b3af32")
+	)
+	(pad "MP" thru_hole oval
+		(at 4.15 0)
+		(size 1.4 2.2)
+		(drill oval 0.8 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f163bea8-7f5c-4e2a-920c-ce080a22505d")
+	)
+	(model "${KIPRJMOD}/Data/Topaz's Models/SK12D07VG4.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
